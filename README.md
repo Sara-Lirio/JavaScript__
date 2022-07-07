@@ -1,6 +1,6 @@
-# JavaScript__ !
+# <img src="https://logospng.org/download/javascript/logo-javascript-256.png" width="40px;"> JavaScript__ !! 
 
-<img width="20px" scr="https://user-images.githubusercontent.com/98292860/176977645-7bcede33-55cf-4041-a9ce-17fcf33a63af.png">
+
 
 
 Documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
