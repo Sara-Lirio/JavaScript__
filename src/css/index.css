@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+main {
+  display: flex;
+}
+
 body {
     background-color: #292b28;
     ;
@@ -28,11 +32,25 @@ h1 {
     margin-right: 1em;
 } 
 
+h2 {
+  color:#eee;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  align-items: center;
+  padding: 1em 2.7em;
+}
+
+.menu {
+  background-color: #3f413e;
+  width: 20%;
+  padding: 2em .5em 2em 1.6em;
+}
+
 
 /*VERTICAL MENU*/
 nav.vertical{
     position:relative;
-    width:26%;
+   
   }
   
   /* ALL UL */
@@ -50,15 +68,18 @@ nav.vertical{
     color:#eee;
     font-family: 'Poppins', sans-serif;
     text-decoration:none;
-    padding:10px 15px;
-    background: #2e302d;
+    padding:1.6em 1.5em;
+    background: #3f413e;
     transition:0.2s;
-    margin: 1em;
+  
+
   }
   /* ALL A HOVER */
   nav.vertical li:hover > a{
     background:#F8DC3E;
-    color: #2e302d;
+    color: #3f413e;
+    border-radius:.5em ;
+  
   }
   
   /* INNER UL HIDE */
@@ -81,3 +102,39 @@ nav.vertical{
   }
 
 body{font:16px/1 sans-serif}
+
+.main-text {
+ width: 75%;
+ padding: 4em 5em;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05em;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.const {
+  color: turquoise;
+}
+
+.name {
+  color: white;
+}
+
+.equal {
+  color: rgb(255, 0, 55)
+}
+
+.string {
+  color: rgb(255, 255, 102)
+}
+
+.log{
+  color: rgb(93, 248, 54)
+}
+
+.par {
+  color: rgb(255, 208, 1)
+}
